@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "826288852520",
+    "firebase_url": "https://petsadoption-cd11c.firebaseio.com",
+    "project_id": "petsadoption-cd11c",
+    "storage_bucket": "petsadoption-cd11c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:826288852520:android:eeba00f92288359f",
+        "android_client_info": {
+          "package_name": "com.petsadoption.tal.petsadoption"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "826288852520-k1vin1fnqe5hceh4i8fmnjo569k11esc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.petsadoption.tal.petsadoption",
+            "certificate_hash": "9764dce629853281ba3ccc39ef651c96e4db98d1"
+          }
+        },
+        {
+          "client_id": "826288852520-649cdfd83a6mmqbc8h3ckp1i4ornuiht.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.petsadoption.tal.petsadoption",
+            "certificate_hash": "754ddacd297617a6de52e24e6fe406a9909b5a8b"
+          }
+        },
+        {
+          "client_id": "826288852520-uthcm5tov0j76ntsqokk0iouvub86o4v.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "826288852520-uthcm5tov0j76ntsqokk0iouvub86o4v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjXsPLe9MGKcusdggEOCg-GZU08VMXQnc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "826288852520-uthcm5tov0j76ntsqokk0iouvub86o4v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/main"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="ראשי" />
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_face_black_24dp"
+            android:title="פרופיל" />
+
+        <item
+            android:id="@+id/pet_profile"
+            android:icon="@drawable/ic_pets_black_24dp"
+            android:title="פרופיל בעל חיים" />
+
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_library_books_black_24dp"
+            android:title="אודות" />
+
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="שתף" />
+        <item
+            android:id="@+id/nav_send"
+            android:icon="@drawable/ic_contact_mail_black_24dp"
+            android:title="צור קשר" />
+
+    </group>
+
+
+</menu>

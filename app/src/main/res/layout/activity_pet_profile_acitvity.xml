@@ -1,0 +1,103 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.petsadoption.tal.petsadoption.Activity.ProfileActivity"
+    android:background="@drawable/appbackground">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/presentImage"
+            android:background="@drawable/ic_menu_gallery"/>
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:id="@+id/petImageView"/>
+
+
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:id="@+id/tvPetname"
+            android:text="שם בעל חיים"
+            android:layout_marginRight="5dp"
+            android:textSize="30sp"
+            android:background="@color/colorWhite"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/tvPetage"
+            android:layout_marginRight="5dp"
+            android:text="גיל"
+            android:textSize="30sp"
+            android:background="@color/colorWhite"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:id="@+id/tvPetype"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="5dp"
+            android:text="גזע"
+            android:textSize="30sp"
+            android:background="@color/colorWhite"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvPetmoreinfo"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="5dp"
+            android:text="פרטים נוספים"
+            android:textSize="30sp"
+            android:background="@color/colorWhite"
+            android:textColor="@color/colorPrimary"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="עדכון פרטים"
+            android:background="@color/colorWhite"
+            android:textColor="@color/colorPrimary"
+            android:onClick="updatepetprofile"
+            android:layout_gravity="center"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

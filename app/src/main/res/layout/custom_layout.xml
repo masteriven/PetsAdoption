@@ -1,0 +1,82 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:text="שם"
+                android:textColor="@color/colorPrimary"
+                android:textSize="30dp"
+                android:fontFamily="@font/varela"/>
+
+
+            <TextView
+                android:id="@+id/age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:paddingRight="40dp"
+                android:text="גיל"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25dp"
+                android:fontFamily="@font/varela"/>
+
+
+            <TextView
+                android:id="@+id/type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:text="סוג"
+                android:paddingRight="40dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25dp"
+                android:fontFamily="@font/varela"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/petImageRv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                </ImageView>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
